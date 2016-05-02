@@ -1,0 +1,7 @@
+---
+supervisord::package_name: 'supervisor'
+supervisord::config_file: '/etc/supervisord.conf'
+supervisord::config_d: '/etc/supervisord.d'
+supervisord::log_file: '/var/log/supervisor/supervisord.log'
+supervisord::pid_file: '/var/run/supervisord.pid'
+
